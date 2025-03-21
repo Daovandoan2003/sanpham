@@ -93,6 +93,11 @@ body {
   outline: none;
   padding: 10px 25px;
   border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.card__action button:hover {
+  transform: scale(0.8);
 }
 .card:hover .card__img {
   transform: translateY(-90px);
