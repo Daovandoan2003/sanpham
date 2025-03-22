@@ -9,9 +9,11 @@
 body {
   height: 100vh;
   background: linear-gradient(to left, #4daf54, #3d8880);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
-  margin: 100px 120px auto;
   width: 320px;
   height: 400px;
   background: #473b3b;
@@ -19,6 +21,7 @@ body {
   border-radius: 15px;
   color: white;
   position: relative;
+  left: -200px;
 }
 .card__heart,
 .card__cart {
@@ -143,11 +146,11 @@ body {
   width: 320px;
   height: 400px;
   background: #473b3b;
-  margin: 500px;
-  transform: translateY(-900px);
+
   border-radius: 20px;
   color: #fffcfc;
   position: relative;
+  left: 200px;
 }
 .pc__heart,
 .pc__cart {
@@ -266,8 +269,7 @@ body {
   width: 320px;
   height: 400px;
   background: #473b3b;
-  margin: 900px;
-  transform: translateY(-2700px);
+
   border-radius: 20px;
   position: absolute;
   color: #fffdfd;
